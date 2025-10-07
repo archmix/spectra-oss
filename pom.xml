@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.archmix</groupId>
+    <artifactId>java-parent</artifactId>
+    <version>1.11.0</version>
+  </parent>
+
+  <artifactId>spectra-oss</artifactId>
+  <packaging>jar</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <properties>
+    <compozitorVersion>0.1.19-SNAPSHOT</compozitorVersion>
+    <junit5Version>5.14.0</junit5Version>
+  </properties>
+
+  <name>Spectra Open Source Solution</name>
+  <description>Unlock the hidden colors of JUnit dynamics.</description>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.archmix</groupId>
+      <artifactId>compozitor-processor</artifactId>
+      <version>${compozitorVersion}</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.archmix</groupId>
+      <artifactId>compozitor-test</artifactId>
+      <version>${compozitorVersion}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>${junit5Version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>${junit5Version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+    </dependency>
+  </dependencies>
+</project>

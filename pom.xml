@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
@@ -10,7 +9,7 @@
 
   <artifactId>spectra-oss</artifactId>
   <packaging>jar</packaging>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>0.1.0</version>
 
   <properties>
     <compozitorVersion>0.1.19</compozitorVersion>
@@ -64,7 +63,7 @@
   <scm>
     <connection>scm:git:git://github.com/archmix/${project.artifactId}.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/archmix/${project.artifactId}.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>v0.1.0</tag>
     <url>https://github.com/archmix</url>
   </scm>
 
